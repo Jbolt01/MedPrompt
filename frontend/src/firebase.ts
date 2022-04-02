@@ -5,13 +5,7 @@ import 'firebase/auth'
 import 'firebase/functions'
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyBFVF1VIEUYjezk2r4ovL_YXdD3_m-fBMU",
-  authDomain: "medprompt-84ead.firebaseapp.com",
-  projectId: "medprompt-84ead",
-  storageBucket: "medprompt-84ead.appspot.com",
-  messagingSenderId: "971406069851",
-  appId: "1:971406069851:web:299a5f3a64f409863b2f7e",
-  measurementId: "G-QMCB1SWZ1D"
+  replace_with_creds_from_google_doc
 })
 
 const auth = app.auth()
